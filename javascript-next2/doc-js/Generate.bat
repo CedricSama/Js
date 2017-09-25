@@ -1,0 +1,1 @@
+exe\jsduck-6.0.0-beta.exe src --output docs --builtin-classes 

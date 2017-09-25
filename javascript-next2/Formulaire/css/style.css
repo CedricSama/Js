@@ -1,0 +1,86 @@
+#wrapper{
+    width:40%;
+    margin:0 auto;
+    font-family: "Times New Roman";
+}
+
+
+.form{
+    border:1px solid #FFFFCF;
+    background-color: #9CBC2D;
+    border-radius: 5px;
+
+}
+
+
+.form fieldset{
+    border:none;
+}
+.form fieldset legend{
+
+}
+
+.form fieldset div{
+    border:2px solid #E0F1AA;
+    background-color: #B9CF6A;
+    padding: 5px;
+    border-radius: 5px;
+    margin:5px;
+}
+
+.form fieldset div label:not([class="standard"]){
+    float: left;
+    width:40%;
+}
+.form fieldset div textarea{
+    border-radius: 3px;
+}
+.form fieldset div input:not([type="radio"]){
+    width:50%;
+    margin: 0px auto;
+    /*float: right;*/
+    border:1px solid #E0F1AA;
+    border-radius: 3px;
+}
+.form fieldset div input[type="radio"]{
+    /*margin: 20px;*/
+    vertical-align:middle ;
+}
+.form fieldset div img{
+    vertical-align:middle ;
+}
+
+.form fieldset div input::-webkit-input-placeholder{
+    font-style: italic;
+}
+
+#button{
+    text-align: center;
+}
+#button button{
+    border:none;
+    padding: 5px;
+    width:120px;
+    background-color: #39430E;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+textarea:invalid,
+input:invalid{
+    border:5px solid #ff080c!important;
+}
+textarea:invalid,
+input:valid{
+    border:5px solid #92ff27!important;
+}
+
+:required{
+    background-color: #FFB700;
+}

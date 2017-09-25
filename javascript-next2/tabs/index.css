@@ -1,0 +1,45 @@
+.wrapper{
+    width:70%;
+    margin:0 auto;
+}
+.tabs{
+    padding:5px;
+    border:1px solid #CCCCCC;
+}
+.tabs ul{
+    margin:0;
+    list-style-type: none;
+    background-color: #d1d1d1;
+    padding:5px 5px 0px 5px;
+    border-radius: 5px;
+}
+.tabs ul li.active{
+    background-color: #ffffff;
+    border:1px solid #ffffff;
+}
+.tabs ul li:hover{
+    cursor: pointer;
+}
+
+.tabs ul li{
+    display: inline-block;
+    background-color: #efefef;
+    padding: 5px 10px;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #aaaaaa;
+    border-bottom: 0;
+
+}
+
+.tabs div{
+    padding: 5px;
+    display: none;
+}
+.tabs div.visible{
+    padding: 5px;
+    display: block;
+}
+.tabs div p{
+    margin:5px 0;
+}
+

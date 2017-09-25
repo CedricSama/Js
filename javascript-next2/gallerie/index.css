@@ -1,0 +1,15 @@
+.img-thumbnail{
+    width: 150px;
+}
+
+.viewer{
+    width:70%;
+    margin:0 auto;
+    margin-bottom: 10px;
+    border:1px solid black;
+    border-radius:5px;
+    padding: 10px;
+}
+#next{
+    float: right;
+}

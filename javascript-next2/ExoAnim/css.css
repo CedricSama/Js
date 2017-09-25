@@ -1,0 +1,32 @@
+html,body{
+    margin: 0;
+    height:100%;
+    width: 100%;
+    cursor: wait;
+}
+.anime{
+    position: absolute;
+    width:200px;
+    height:200px;
+    background-color: #00bcd4;
+}
+.topleft{
+    top:0;
+    left:0;
+    background-color: #b2e962;
+}
+.topright{
+    top:0;
+    right: 0;
+    background-color: #fc18f2;
+}
+.bottomleft{
+    left:0;
+    bottom: 0;
+    background-color: #fcfbcd;
+}
+.bottomright{
+    right:0;
+    bottom: 0;
+    background-color: #0bcbfc;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="index.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <form class="form" action="">
+        <fieldset>
+            <legend>Step 1 :Votre identité</legend>
+            <div>
+                <label for="nom">Nom :</label>
+                <input type="text" name="Nom"  placeholder="Prenom et nom ..." id="nom">
+            </div>
+            <div>
+                <label for="email">Email : </label>
+                <input   pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,5}$' required name="Nom" id="email"  placeholder="exemple@domaine.com">
+            </div>
+            <div>
+                <label for="dataaniv">Date d'aniveraire : </label>
+                <input type="date" required name="dataaniv" id="dataaniv"  placeholder="12/12/2012">
+            </div>
+            <div>
+                <label for="Tel">Tel : </label>
+                <input type="tel" pattern="[0]{1}[1-9]{1}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}$" name="Nom" placeholder="00-00-00-00-00" id="Tel">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Step 2 : Adresse de livraison</legend>
+            <div>
+                <label for="addr">Adresse :</label>
+                <textarea    rows="4" cols="30" name="adress"  placeholder="N° et rue ...." id="addr"></textarea>
+            </div>
+            <div>
+                <label for="CP">Code postal : </label>
+                <input type="text" pattern='[0-9]{5}$' name="Nom" id="CP"  placeholder="75000">
+            </div>
+            <div>
+                <label for="pays">Pays : </label>
+                <input type="text" name="Nom" id="pays" placeholder="France">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Step 3 :Information CB</legend>
+            <div>
+                <label>Type de carte bancaire : </label><br>
+                <input type="radio" toto="titi" name="carte" checked><img src="img/visa.gif" alt=""> <label class="standard">Visa</label>
+                <input type="radio" name="carte"><img src="img/mastercard.gif" alt=""> <label class="standard">Master Carte</label>
+                <input type="radio" name="carte"><img src="img/amex.gif" alt=""> <label class="standard">Amex</label>
+            </div>
+            <div>
+                <label for="cardNum">N° de catre : </label>
+                <input type="text" name="cardNum"
+                       id="cardNum"  placeholder="XXXX XXXX XXXX XXXX" pattern="(^[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4})$|(^[0-9]{16}$)">
+            </div>
+            <div>
+                <label for="Seccode">Code Securité : </label>
+                <input type="text" name="Seccode" id="Seccode" placeholder="Code Securité">
+            </div>
+            <div>
+                <label for="titulaire">Nom du porteur de la carte : </label>
+                <input type="text" name="Nom" id="titulaire" placeholder="même nom que sur la carte">
+            </div>
+        </fieldset>
+
+
+        <div id="button"> <input type="submit">J'achète</input> </div>
+    </form>
+
+
+
+</div>
+
+
+</body>
+</html>
