@@ -1,9 +1,9 @@
-INITIATION :
+# INITIATION :
 
- Introduction : JavaScript, JScript, ECMAScript, NodeJS
- JavaScript Algo : types, variables, opérateurs, structures
+* Introduction : JavaScript, JScript, ECMAScript, NodeJS
+* JavaScript Algo : types, variables, opérateurs, structures
 conditionnelles, fonctions, objets
- Inclure un Script JS, head ou body ?
+* Inclure un Script JS, head ou body ?
  Compatibilité (Caniuse.com, Quirksmode.org…)
  Programmation événementielle = Qui ? Quoi ? Quand ?
  Ex : Qui ? Un bouton, Quoi ? Une fonction, Quand ? Clic
